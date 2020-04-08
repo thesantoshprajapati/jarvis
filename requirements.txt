@@ -1,0 +1,6 @@
+wikipedia
+wolframalpha
+SpeechRecognition
+pyttsx3
+feedparser
+pyjokes
