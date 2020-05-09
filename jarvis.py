@@ -126,17 +126,17 @@ try:
             query = query.lower()
             
             if query == 'open youtube' or query == 'youtube' or query == 'www.youtube.com' or query == 'youtube.com' :
-                stMsgs = ['oening youtube','ok processing ... your request ....','please wait... your request is being processed','ok']
+                stMsgs = ['opening youtube','ok processing ... your request ....','please wait... your request is being processed','ok']
                 speak(random.choice(stMsgs))
                 webbrowser.open('www.youtube.com')
 
             elif query == 'open google' or query == 'google' or query == 'www.google.com' or query == 'google.com' :
-                stMsgs = ['oening google','ok processing ... your request ....','please wait... your request is being processed','ok']
+                stMsgs = ['opening google','ok processing ... your request ....','please wait... your request is being processed','ok']
                 speak(random.choice(stMsgs))
                 webbrowser.open('www.google.com')
 
             elif query == 'open gmail' or query == 'open mail' :
-                stMsgs = ['oening email','ok processing ... your request ....','please wait... your request is being processed','ok']
+                stMsgs = ['opening email','ok processing ... your request ....','please wait... your request is being processed','ok']
                 speak(random.choice(stMsgs))
                 webbrowser.open('www.gmail.com')
 
